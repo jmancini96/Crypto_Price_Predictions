@@ -10,10 +10,7 @@ function About() {
             } needed </h1>
 
         </div>
-        {/* <img src={coverImage} className="my-2" style={{ width: "60%" }} alt="cover" /> */}
-        <div className="my-2">
 
-        </div>
     </section>
     )
 
