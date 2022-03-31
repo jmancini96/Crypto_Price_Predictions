@@ -1,8 +1,8 @@
 .mainContainer{
     display: flex;
+    margin-top: 10px;
 }
 
-.others{
+.home{
     flex: 4;
-    background-color: white;
 }
