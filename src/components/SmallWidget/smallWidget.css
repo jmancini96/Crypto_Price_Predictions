@@ -1,0 +1,25 @@
+.widgetSmall{
+    flex: 1;
+    -webkit-box-shadow: -5px 8px 13px 3px rgba(0,0,0,0.62); 
+    box-shadow: -5px 8px 13px 3px rgba(0,0,0,0.62);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetSmallTitle{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.widgetSmallImg{
+    font: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetSmallList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

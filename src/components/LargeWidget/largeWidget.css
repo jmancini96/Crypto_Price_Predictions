@@ -1,0 +1,6 @@
+.largeWidget{
+    flex: 2;
+    -webkit-box-shadow: -5px 8px 13px 3px rgba(0,0,0,0.62); 
+    box-shadow: -5px 8px 13px 3px rgba(0,0,0,0.62);
+    padding: 20px;
+}
