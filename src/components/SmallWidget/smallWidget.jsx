@@ -1,5 +1,5 @@
 import './SmallWidget.css'
-import TvIcon from '@mui/icons-material/Tv';
+import TvIcon  from '@mui/icons-material/Tv';
 
 export default function SmallWidget() {
   return (
@@ -13,9 +13,10 @@ export default function SmallWidget() {
                 ></img>
                 <div className='widgetSmallUser'>
                     <span className="widgetSmallUserName">two philospohers </span>
+                    <span className="widgetSmallUserDesc">talking </span>
                 </div>
                 <button className="widgetSmallButton">
-                    <TvIcon/>
+                    <TvIcon className="widgetSmallIcon"></TvIcon>
                     display
                 </button>       
             </li>
@@ -25,10 +26,11 @@ export default function SmallWidget() {
                     className='widgetSmallImg'
                 ></img>
                 <div className='widgetSmallUser'>
-                    <span className="widgetSmallUserName">two philospohers </span>
+                    <span className="widgetSmallUserName">two philosophers </span>
+                    <span className="widgetSmallUserDesc">talking </span>
                 </div>
                 <button className="widgetSmallButton">
-                    <TvIcon/>
+                    <TvIcon className="widgetSmallIcon"></TvIcon>
                     display
                 </button>       
             </li>
@@ -40,9 +42,10 @@ export default function SmallWidget() {
                 ></img>
                 <div className='widgetSmallUser'>
                     <span className="widgetSmallUserName">two philospohers </span>
+                    <span className="widgetSmallUserDesc">talking </span>
                 </div>
                 <button className="widgetSmallButton">
-                    <TvIcon/>
+                    <TvIcon className="widgetSmallIcon"></TvIcon>
                     display
                 </button>       
             </li>
@@ -53,9 +56,10 @@ export default function SmallWidget() {
                 ></img>
                 <div className='widgetSmallUser'>
                     <span className="widgetSmallUserName">two philospohers </span>
+                    <span className="widgetSmallUserDesc">talking </span>
                 </div>
                 <button className="widgetSmallButton">
-                    <TvIcon/>
+                    <TvIcon className="widgetSmallIcon"></TvIcon>
                     display
                 </button>       
             </li>

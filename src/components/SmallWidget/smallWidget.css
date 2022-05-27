@@ -7,12 +7,12 @@
 }
 
 .widgetSmallTitle{
-    font-size: 32px;
+    font-size:24px;
     font-weight: 600;
 
 }
 .widgetSmallImg{
-    font: 40px;
+    width:  40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
@@ -22,4 +22,41 @@
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.widgetSmallListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.widgetSmallUser{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmallUserName{
+    font-weight: 600;
+
+}
+
+.widgetSmallUserDesc{
+    font-weight: 300;
+}
+
+.widgetSmallButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    background-color: #eee3f7;
+    color:#555;
+    cursor: pointer;
+}
+
+.widgetSmallIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
 }
