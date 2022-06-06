@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import express from 'express';
 import App from './App';
 
-// s
+App.use(express.static(__dirname));
+
+App.get("/*", function(req, res) {
+  res.sendFile(path.join(__dirname, "index.html"));
+});
 
 ReactDOM.render(
   <React.StrictMode>

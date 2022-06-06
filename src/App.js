@@ -6,11 +6,11 @@ import Home from './pages/home/Home';
 import "./app.css";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 import User from './pages/User/User';
-import { Routes } from 'react-router-dom';
+
 
 function App() {
   return (
